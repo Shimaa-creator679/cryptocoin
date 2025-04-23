@@ -1,0 +1,44 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    color: white;
+}
+nav .logo img{
+    width: 200px;
+
+}
+nav .links ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+nav .btns{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+nav .btns select{
+
+    border: none;
+  padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+
+}
+
+button{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+button img{
+    width: 10px;
+}
